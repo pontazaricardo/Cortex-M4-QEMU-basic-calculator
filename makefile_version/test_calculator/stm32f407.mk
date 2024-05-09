@@ -30,7 +30,7 @@ LDFLAGS += \
 	$(ARCH_FLAGS)
 
 
-LINKDEPS += obj/core/hal-opencm3.c.o obj/test.c.o
+LINKDEPS += obj/core/hal-opencm3.c.o obj/core/randombytes.c.o obj/test.c.o
 
 all: bin/stm32f407-test.bin
 
