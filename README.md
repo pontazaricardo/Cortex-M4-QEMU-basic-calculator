@@ -27,3 +27,18 @@ Verify that the installation was correct by checking the version
 ```bash
 arm-none-eabi-gcc --version
 ```
+
+Also, install the stlink-tools:
+```bash
+sudo apt install stlink-tools
+```
+
+## Build the libopencm3 library
+
+From the **makefile_version** folder, run
+```bash
+cd libopencm3
+make clean
+make
+```
+Then, 
